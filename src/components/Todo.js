@@ -8,7 +8,7 @@ const Todo = ({ todo, toggleTodo }) => (
 		{todo && todo.completed ? '👌' : '👋'}{' '}
 		<span
 			className={cx(
-				"todo-item__text",
+				'todo-item',
 				todo && todo.completed && 'todo-item__text--completed'
 			)}
 		>
